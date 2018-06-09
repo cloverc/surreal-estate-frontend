@@ -8,3 +8,20 @@
     min-width: 500px;
   }
 }
+
+.errorMsg {
+  color: red;
+  font-size: 13px;
+}
+
+.form-control.has-error {
+  border-color: red;
+}
+
+.form-control.has-error:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: red;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}

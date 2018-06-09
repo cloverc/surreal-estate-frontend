@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const NavigationBar = () => (
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -13,7 +14,7 @@ const NavigationBar = () => (
           <a className="nav-link" href="#">See Listings</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Add a Property</a>
+          <NavLink to="/post-property" className="nav-link">Add a Property</NavLink>
         </li>
       </ul>
       <form className="form-inline my-2 my-lg-0">
